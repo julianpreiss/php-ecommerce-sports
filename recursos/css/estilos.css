@@ -1,0 +1,15 @@
+body, html {height: 100%;}
+body {font-family: 'Poppins', sans-serif;}
+.bg { background-image: url('../img/banner-home.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;height: 80%;}
+.darkbg {width: 100%;background-color: rgba(0,0,0,.5);}
+h1 {font-size: 3em;color: white;font-weight: bold;}
+main h2{ font: bold small-caps 24px 'Trebuchet Ms'; background: #CB342E; color: white; padding: 5px; margin: 20px 0 5px 0; }
+
+.bsociales{ margin: 0; padding: 0; list-style: none;}
+.bsociales a{ background: url('icons/sprite.png') left top no-repeat; display: inline-block; width: 48px; height: 48px; overflow: hidden; text-indent: -5000px;  margin-left: 5px; border-radius: 4px; border: 1px solid #111; filter: sepia(1) brightness(0.5); }
+.bsociales a:hover{ filter: sepia(0) brightness(1); }
+.bsociales a[href *= facebook]{ background-position: 0px 0px; }
+.bsociales a[href *= google]{ background-position: 0px -48px; }
+.bsociales a[href *= instagram]{ background-position: 0px -96px; }
+
+
